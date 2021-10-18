@@ -1,0 +1,57 @@
+.container{
+    float: left;
+    width:  60%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 20%;
+    .content{
+        padding-top: 20%;
+        h1{
+            font-size: 70px;
+            font-weight: 400;
+            letter-spacing: 20px;
+            color: $Dark_Grayish_Red;
+        }
+        h1:first-child{
+            color: $Desaturated_Red;
+            font-weight: 100;
+        }
+        h3{
+            color: $Desaturated_Red;
+            line-height: 30px;
+            padding-right: 50px;
+        }
+     }
+     .email-contact{
+         margin-top: 40px;
+        input{
+            height: 50px;
+            border-radius:30px; 
+            border-color: $Email-input;
+            color: $Email-input;
+            padding: 20px;
+        }
+        input[type='text']{
+            width: 80%;
+        }
+        input[type='button']{
+            font-size: 35px;
+            font-weight: 100;
+            position: absolute;
+            width: 7%;
+            right: 63%;
+            background-image: url(/images/icon-arrow.svg), $Gradients2;
+            background-repeat: no-repeat;
+            background-position: center;
+            border: none;
+            color: white;
+            box-shadow: 10px 10px 8px hsl(0, 58%, 91%);
+        }
+        input[type='button']:hover{
+            background-image: url(/images/icon-arrow.svg);
+            background-color: $Soft_Red_InputChange;
+            box-shadow: 12px 12px 12px 8px hsl(0, 100%, 93%);
+
+        }
+    }
+}

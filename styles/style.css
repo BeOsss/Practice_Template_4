@@ -1,0 +1,84 @@
+.container {
+  float: left;
+  width: 60%;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 20%;
+}
+
+.container .content {
+  padding-top: 20%;
+}
+
+.container .content h1 {
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: 20px;
+  color: #413a3a;
+}
+
+.container .content h1:first-child {
+  color: #ce9797;
+  font-weight: 100;
+}
+
+.container .content h3 {
+  color: #ce9797;
+  line-height: 30px;
+  padding-right: 50px;
+}
+
+.container .email-contact {
+  margin-top: 40px;
+}
+
+.container .email-contact input {
+  height: 50px;
+  border-radius: 30px;
+  border-color: rgba(249, 98, 98, 0.171);
+  color: rgba(249, 98, 98, 0.171);
+  padding: 20px;
+}
+
+.container .email-contact input[type='text'] {
+  width: 80%;
+}
+
+.container .email-contact input[type='button'] {
+  font-size: 35px;
+  font-weight: 100;
+  position: absolute;
+  width: 7%;
+  right: 63%;
+  background-image: url(/images/icon-arrow.svg), linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  color: white;
+  -webkit-box-shadow: 10px 10px 8px #f5dbdb;
+          box-shadow: 10px 10px 8px #f5dbdb;
+}
+
+.container .email-contact input[type='button']:hover {
+  background-image: url(/images/icon-arrow.svg);
+  background-color: #ffd6d6;
+  -webkit-box-shadow: 12px 12px 12px 8px #ffdbdb;
+          box-shadow: 12px 12px 12px 8px #ffdbdb;
+}
+
+.model-img {
+  float: left;
+  width: 40%;
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+/*# sourceMappingURL=style.css.map */
